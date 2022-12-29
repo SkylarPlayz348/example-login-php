@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+* {
+    font-family: 'Spectral SC', serif;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+}
+
+.login-register-form {
+    background-color: white;
+    border-radius: 20px;
+    margin-left:40%;
+    margin-right:50%;
+    text-align: center;
+    overflow: hidden;
+    min-width: fit-content;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+     
+}
+
+.login-register-form h2 {
+    text-align: center;
+    margin-bottom: 8;
+    font-size: 42;
+}
+
+.login-register-alert {
+    margin-top: 5px;
+    margin-left: 4px;
+    padding: 10px;
+    background-color: rgb(190, 60, 60);
+    border-radius: 10px;
+    color: rgb(223, 219, 219);
+}
+
+.login-signup-btn {
+    color: white;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.register-login-transfer {
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.login-register-inputs{
+    margin-top: -20px;
+    padding-top: 30px;
+}
+
+.login-register-inputs input{
+    padding: 10;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
