@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS php_login_example;
+
 CREATE TABLE IF NOT EXISTS users (
     userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     usersName varchar(255),
